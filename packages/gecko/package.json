@@ -1,0 +1,9 @@
+{
+    "name": "gecko",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "gecko": "deno run --allow-net tests/gecko.test.ts",
+        "all": "npm run gecko"
+    }
+}

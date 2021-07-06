@@ -1,0 +1,9 @@
+{
+    "name": "abi",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "chainlink": "deno run --allow-net tests/abi.test.ts",
+        "all": "npm run abi"
+    }
+}

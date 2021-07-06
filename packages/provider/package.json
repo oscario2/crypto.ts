@@ -1,0 +1,9 @@
+{
+    "name": "provider",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "provider": "deno run --allow-net tests/provider.test.ts",
+        "all": "npm run provider"
+    }
+}

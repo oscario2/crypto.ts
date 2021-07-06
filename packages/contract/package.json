@@ -1,0 +1,11 @@
+{
+    "type": "module",
+    "scripts": {
+        "deno": "deno run --allow-net",
+        "erc20": "npm run deno tests/erc20.test.ts",
+        "factory": "npm run deno tests/factory.test.ts",
+        "lp": "npm run deno tests/lp.test.ts",
+        "vault": "npm run deno tests/vault.test.ts",
+        "all": "npm run erc20 && npm run factory && npm run lp && npm run vault"
+    }
+}

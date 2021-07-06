@@ -1,0 +1,12 @@
+{
+    "deno.path": "/usr/bin/deno",
+    "deno.enable": true,
+    "deno.lint": true,
+    "deno.unstable": true,
+    // "deno.importMap": "./import_map.json",
+    // "deno.config": "./tsconfig.json",
+    "deno.suggest.imports.hosts": {
+        "https://cdn.skypack.dev": false,
+        "https://raw.githubusercontent.com": false
+    }
+}

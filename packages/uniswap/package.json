@@ -1,0 +1,9 @@
+{
+    "name": "uniswap",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "uniswap": "deno run --allow-net tests/uniswap.test.ts",
+        "all": "npm run uniswap"
+    }
+}
