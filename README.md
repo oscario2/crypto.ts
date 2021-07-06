@@ -26,4 +26,4 @@ Provider for blockchain RPC calls. More info and tests in [`packages/provider`](
 
 ## Uniswap
 
-Builds a pool state identical to `info.uniswap.com` using batch RPC calls. More info and tests in [`packages/uniswap`](/packages/uniswap)
+Build a pool state identical to `info.uniswap.com` using batch RPC calls. More info and tests in [`packages/uniswap`](/packages/uniswap)
